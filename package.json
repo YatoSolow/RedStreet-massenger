@@ -1,18 +1,14 @@
+{ "scripts": { "start": "npx serve ." } } 
 {
-  "name": "redstreetmessenger",
+  "name": "redstreet-messenger",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "RedStreet Messenger",
+  "main": "RedStreet.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx serve ."
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.2.1",
-    "socket.io": "^4.8.1"
-  }
+  "author": "YatoSolow",
+  "license": "MIT",
+  "dependencies": {}
 }
